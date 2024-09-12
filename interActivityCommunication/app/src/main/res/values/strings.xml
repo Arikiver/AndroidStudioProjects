@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">interActivityCommunication</string>
+    <string name="button_send">Send</string>
+    <string name="hint_input">Input</string>
+</resources>
