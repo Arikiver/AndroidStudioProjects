@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Background color for the question -->
+    <solid android:color="#FFCC80" /> <!-- Example: Light orange -->
+
+    <!-- Rounded corners -->
+    <corners android:radius="20dp" />
+
+    <!-- Padding for the content inside the background -->
+    <padding
+        android:left="16dp"
+        android:top="16dp"
+        android:right="16dp"
+        android:bottom="16dp" />
+</shape>

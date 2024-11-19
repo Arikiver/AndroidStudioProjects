@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.recycleview"
+    namespace = "com.example.calculator"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.recycleview"
+        applicationId = "com.example.calculator"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

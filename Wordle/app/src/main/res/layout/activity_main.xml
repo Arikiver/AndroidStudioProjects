@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141414"
+    tools:context=".MainActivity">
+
+    <!--on below line creating a text view for heading-->
+    <TextView
+        android:id="@+id/idTVGreetHeading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Wordle!!"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="32sp"
+        android:textStyle="normal" />
+
+    <LinearLayout
+        android:id="@+id/idLLWordle"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginEnd="50dp"
+        android:orientation="vertical">
+
+        <!-- on below line creating a linear layout for row-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+            <!-- on below line creating an edit text for word-->
+            <EditText
+                android:id="@+id/edt_11"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/back_edt"
+                android:gravity="center"
+                android:maxLength="1"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <!-- on below line creating an edit text for word-->
+            <EditText
+                android:id="@+id/edt_12"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/back_edt"
+                android:gravity="center"
+                android:maxLength="1"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <!-- on below line creating an edit text for word-->
+            <EditText
+                android:id="@+id/edt_13"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/back_edt"
+                android:gravity="center"
+                android:maxLength="1"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <!-- on below line creating an edit text for word-->
+            <EditText
+                android:id="@+id/edt_14"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/back_edt"
+                android:gravity="center"
+                android:maxLength="1"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <!-- on below line creating an edit text for word-->
+            <EditText
+                android:id="@+id/edt_15"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/back_edt"
+                android:gravity="center"
+                android:maxLength="1"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <!-- on below line creating a linear layout for row-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+            <!-- on below line creating an edit text for word-->
+            <EditText
+                android:id="@+id/edt_21"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/back_edt"
+                android:gravity="center"
+                android:maxLength="1"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <!-- on below line creating an edit text for word-->
+            <EditText
+                android:id="@+id/edt_22"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/back_edt"
+                android:gravity="center"
+                android:maxLength="1"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <!-- on below line creating an edit text for word-->
+            <EditText
+                android:id="@+id/edt_23"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/back_edt"
+                android:gravity="center"
+                android:maxLength="1"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <!-- on below line creating an edit text for word-->
+            <EditText
+                android:id="@+id/edt_24"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/back_edt"
+                android:gravity="center"
+                android:maxLength="1"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <!-- on below line creating an edit text for word-->
+            <EditText
+                android:id="@+id/edt_25"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/back_edt"
+                android:gravity="center"
+                android:maxLength="1"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!-- on below line creating a linear layout for row-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+            <EditText
+                android:id="@+id/edt_31"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/back_edt"
+                android:gravity="center"
+                android:maxLength="1"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edt_32"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/back_edt"
+                android:gravity="center"
+                android:maxLength="1"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edt_33"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/back_edt"
+                android:gravity="center"
+                android:maxLength="1"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edt_34"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/back_edt"
+                android:gravity="center"
+                android:maxLength="1"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edt_35"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/back_edt"
+                android:gravity="center"
+                android:maxLength="1"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!-- on below line creating a linear layout for row-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+            <EditText
+                android:id="@+id/edt_41"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/back_edt"
+                android:gravity="center"
+                android:maxLength="1"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edt_42"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/back_edt"
+                android:gravity="center"
+                android:maxLength="1"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edt_43"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/back_edt"
+                android:gravity="center"
+                android:maxLength="1"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edt_44"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/back_edt"
+                android:gravity="center"
+                android:maxLength="1"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edt_45"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/back_edt"
+                android:gravity="center"
+                android:maxLength="1"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!-- on below line creating a linear layout for row-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+            <EditText
+                android:id="@+id/edt_51"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/back_edt"
+                android:gravity="center"
+                android:maxLength="1"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edt_52"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/back_edt"
+                android:gravity="center"
+                android:maxLength="1"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edt_53"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/back_edt"
+                android:gravity="center"
+                android:maxLength="1"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edt_54"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/back_edt"
+                android:gravity="center"
+                android:maxLength="1"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edt_55"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/back_edt"
+                android:gravity="center"
+                android:maxLength="1"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!-- on below line creating a linear layout for row-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+            <EditText
+                android:id="@+id/edt_61"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/back_edt"
+                android:gravity="center"
+                android:maxLength="1"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edt_62"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/back_edt"
+                android:gravity="center"
+                android:maxLength="1"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edt_63"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/back_edt"
+                android:gravity="center"
+                android:maxLength="1"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edt_64"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/back_edt"
+                android:gravity="center"
+                android:maxLength="1"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edt_65"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/back_edt"
+                android:gravity="center"
+                android:maxLength="1"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- on below linecreating a text view for displaying a message-->
+    <TextView
+        android:id="@+id/idTVCongo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idLLWordle"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:text="Congratulation You have guessed the right word!!"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:textStyle="normal"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/tryAgainBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idTVCongo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Try Again"
+        android:visibility="gone"
+        android:backgroundTint="#33cc33"
+        android:padding="12dp"/>
+
+</RelativeLayout>
